@@ -33,8 +33,8 @@ export const DEFAULT_POSTS = [
 ];
 
 export const DEFAULT_USERS: User[] = [
-  { name: 'John Doe', email: 'john@example.com', password: 'password123' },
-  { name: 'Jane Smith', email: 'jane@example.com', password: 'password456' }
+  { name: 'John', email: 'demo@example.com', password: 'password123' },
+  { name: 'Jane', email: 'test@user.com', password: 'testpass' }
 ];
 
 export const MESSAGES = {
