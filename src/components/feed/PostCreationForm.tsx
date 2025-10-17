@@ -50,7 +50,7 @@ const PostCreationForm: React.FC<PostCreationFormProps> = ({
           className={`send-btn ${isSending ? 'sending' : ''}`}
           disabled={!newPost.trim() || isSending}
         >
-          {isSending ? '⏳' : '✈️'}
+          {isSending ? '⏳' : '➤'}
         </button>
       </div>
     </div>

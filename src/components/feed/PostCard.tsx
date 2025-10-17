@@ -22,7 +22,7 @@ const PostCard: React.FC<PostCardProps> = ({ post, onActionClick }) => {
       <div className="post-actions">
         <button className="action-icon" onClick={onActionClick}>❤️</button>
         <button className="action-icon" onClick={onActionClick}>💬</button>
-        <button className="action-icon" onClick={onActionClick}>✈️</button>
+        <button className="action-icon" onClick={onActionClick}>➤</button>
       </div>
     </div>
   );
